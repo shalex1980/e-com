@@ -8,6 +8,6 @@ exports.get = (app) => {
             return item.category.toLowerCase() == category;
         });
 
-        app.render(req, res, ActualPage, {articles : articlesByCategory});
+        app.render(req, res, ActualPage, {articles : articlesByCategory, category: category[0].toUpperCase() + category.slice(1) });
     }
 }

@@ -1,0 +1,58 @@
+[
+	{
+		"id": "1",
+		"author": "",
+		"id_article": 1,
+		"text": "article Comment 1",
+		"dataCreate": "2017-01-26" 
+	},
+	{
+		"id": "2",
+		"author": "",
+		"id_article": 2,
+		"text": "article Comment 2",
+		"dataCreate": "2017-01-26" 
+	},
+	{
+		"id": "3",
+		"author": "",
+		"id_article": 1,
+		"text": "article Comment 1",
+		"dataCreate": "2018-01-26" 
+	},
+	{
+		"id": "4",
+		"author": "",
+		"id_article": 3,
+		"text": "article Comment 3",
+		"dataCreate": "2019-03-26" 
+	},
+	{
+		"id": "5",
+		"author": "",
+		"id_article": 1,
+		"text": "article Comment 1",
+		"dataCreate": "2020-01-26" 
+	},
+	{
+		"id": "6",
+		"author": "",
+		"id_article": 3,
+		"text": "article Comment 3",
+		"dataCreate": "2017-03-18" 
+	},
+	{
+		"id": "7",
+		"author": "",
+		"id_article": 2,
+		"text": "article Comment 2",
+		"dataCreate": "2019-05-12" 
+	},
+	{
+		"id": "8",
+		"author": "",
+		"id_article": 2,
+		"text": "new article Comment 2",
+		"dataCreate": "2018-09-16" 
+	}
+]

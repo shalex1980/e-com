@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 const routeArticle = require('./routes/article');
 const routeArticles = require('./routes/articles');
 const routeCategory = require('./routes/category');
+const routeComments = require('./routes/comments');
 
 const dev = process.env.NODE_ENV !== 'production';
 
@@ -30,6 +31,8 @@ app.prepare()
     server.get('/category/:category', routeCategory.get(app));
 
     server.get('/api/articles', routeArticles.get);
+
+    server.get('/api/comments/:id', routeComments.get);
 
     server.get('*', handler);
 

@@ -3,14 +3,15 @@ import Preview from '../../components/includes/Preview';
 
 
 const Category = (props) => {
-	const { articles } = props;
-	console.log(articles);
+	const { articles, category } = props;
+
 	return (
 		<>
+			<h3>Category: {category}</h3>
 			{
 			 articles.map((item) => {
-        return <Preview {...item} key={item.id} />
-        })
+				return <Preview {...item} key={item.id} />
+				})
 			}
 		</>
 )
@@ -18,7 +19,8 @@ const Category = (props) => {
 
 Category.getInitialProps = async({query}) => {
 	return {
-		articles: query.articles
+		articles: query.articles,
+		category: query.category
 	}
 }
 
